@@ -51,18 +51,17 @@
                 <i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i>
               </div>
             </div>
-
           </div>
         </article>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript" src="events.js"></script>
-        <script type="text/javascript" src="nav.js"></script>
       </section>
     </main>
     <footer>
-      <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> by Scribe inc. All rights reserved.</p>
+      <?php include 'footer.php';?>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+    <script type="text/javascript" src="nav.js"></script>
   </body>
 
 </html>

@@ -23,23 +23,24 @@
   <body>
     <header>
       <?php include 'navigation.php';?>
-      
     </header>
     <main>
       <section>
-        <br />
-        <br />
-        <h2 id="chart-title">Overall Progress</h2>
-        <img id="piechart" src="images/piechart.png" />
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript" src="events.js"></script>
-        <script type="text/javascript" src="nav.js"></script>
+        <article>
+          <br />
+          <br />
+          <h2 id="chart-title">Overall Progress</h2>
+          <img id="piechart" src="images/piechart.png" />
+        </article>
       </section>
     </main>
     <footer>
-      <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> by Scribe inc. All rights reserved.</p>
+      <?php include 'footer.php';?>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+    <script type="text/javascript" src="nav.js"></script>
   </body>
 
 </html>
