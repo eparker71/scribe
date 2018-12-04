@@ -11,6 +11,6 @@
     <i class="fa fa-bars"></i>
   </a>
   <?php } else { ?>
-    
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
   <?php } ?>
 </nav>
