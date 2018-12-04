@@ -1,8 +1,10 @@
 
 
 <div id="id01" class="modal">
-  <?php $user = "kate";?>
-  <form class="modal-content animate" action="#">
+  <?php
+    $_SESSION['login_user']= = 'kate';
+  ?>
+  <form class="modal-content animate" action="index.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img_avatar2.png" alt="Avatar" class="avatar">
