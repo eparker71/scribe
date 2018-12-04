@@ -44,4 +44,5 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript" src="events.js"></script>
   <script type="text/javascript" src="nav.js"></script>
+  <?php include 'login.php';?>
 </html>
