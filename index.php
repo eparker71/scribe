@@ -22,18 +22,8 @@
 
   <body>
     <header>
-      <nav class="topnav" id="myTopnav">
-        <img id="scribe-icon" src="images/pencil.png" />
-        <a id="home" href="index.html">Home</a> |
-        <a id="license" href="licenses.html">License</a> |
-        <a id="training" href="trainings.html">Training</a> |
-        <a id="help" href="help.html">Help</a>
-        <span id="user">Hi Kate!</span>
-        <img id="profilePicture" src="images/kate.png" />
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
+      <?php include 'navigation.php';?>
+      
     </header>
     <main>
       <section>
