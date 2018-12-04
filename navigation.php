@@ -1,5 +1,4 @@
 <nav class="topnav" id="myTopnav">
-  <?php session_start();?>
   <img id="scribe-icon" src="images/pencil.png" />
   <a id="home" href="index.php">Home</a> |
   <a id="license" href="licenses.php">License</a> |
