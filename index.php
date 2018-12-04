@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <html>
 
   <head>
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Welcome to E91</title>
-    
+
     <!-- Google Analytics -->
     <script>
       window.ga = window.ga || function() {
@@ -48,7 +48,6 @@
       <?php include 'login.php';?>
       <?php include 'footer.php';?>
     </footer>
-
   </body>
 
 </html>
