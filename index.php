@@ -31,7 +31,11 @@
           <br />
           <br />
           <h2 id="chart-title">Overall Progress</h2>
-          <img id="piechart" src="images/piechart.png" />
+          <?php if(isset($_COOKIE['user'])){ ?>
+            <img id="piechart" src="images/piechart.png" />
+          <?php } else { ?>
+              <h3>Please login to view progress</h3>
+          <?php } ?>
         </article>
       </section>
     </main>
