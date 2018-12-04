@@ -4,7 +4,7 @@
   <a id="license" href="licenses.php">License</a> |
   <a id="training" href="trainings.php">Training</a> |
   <a id="help" href="help.php">Help</a>
-  <?php if isset($_COOKIE['user']) { ?>
+  <?php if(isset($_COOKIE['user'])){ ?>
   <span id="user">Hi Kate!</span>
   <img id="profilePicture" src="images/kate.png" />
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
