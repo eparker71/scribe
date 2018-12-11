@@ -158,7 +158,6 @@ $(document).ready(function () {
   var stack = [];
   var found = 0;
 
-
   $('.flip-card-inner').click(function () {
     $(this).addClass('flipped');
     stack.push($(this));
