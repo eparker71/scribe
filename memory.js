@@ -1,3 +1,4 @@
+// shuffle cards
 function shuffle(array) {
   //https://bost.ocks.org/mike/shuffle/
   var m = array.length,
