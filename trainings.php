@@ -31,6 +31,29 @@
       <section>
         <article>
           <h3>Manage your trainings</h3>
+          <div id="license-container">
+
+            <div class="card training-card">
+              <p class="lic-name">
+                <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+                Early Childhood Special Ed.</p>
+              <div class="container">
+                <p>Valid until Sept. 28th, 2020 </p>
+              </div>
+            </div>
+
+            <!--  start add card -->
+            <div class="card training-card add-card">
+              <p class="lic-name">
+                <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+                Add New Training</p>
+              <br />
+              <div class="container">
+                <i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i>
+              </div>
+            </div>
+            <!--  end add card -->
+          </div>
         </article>
       </section>
     </main>

@@ -6,7 +6,7 @@
     <meta name="generator" content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.18.1), see www.w3.org">
     <link rel="stylesheet" type="text/css" href="theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" type="text/css" href="w3.css">
     <title>License Page</title>
 
     <!-- Google Analytics -->
@@ -33,7 +33,7 @@
           <h3>Manage your licenses</h3>
           <div id="license-container">
 
-            <div class="card">
+            <div class="card license-card">
               <p class="lic-name">
                 <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
                 Early Childhood Special Ed.</p>
@@ -42,21 +42,26 @@
               </div>
             </div>
 
-            <div class="addCard">
+            <!--  start add card -->
+            <div class="card license-card add-card">
               <p class="lic-name">
                 <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-                Add a License</p>
+                Add New License</p>
               <br />
               <div class="container">
-                <i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i>
+                <span onclick="console.log('hello');document.getElementById('addlic').style.display='block'"><i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i>
+                </span>
               </div>
             </div>
+            <!--  end add card -->
+
           </div>
         </article>
       </section>
     </main>
     <footer>
       <?php include 'footer.php';?>
+      <?php include 'modal_form.html';?>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>

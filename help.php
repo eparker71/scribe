@@ -29,7 +29,7 @@
       <section>
         <h3>Need help with Scribe?</h3>
         <article>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          <p>Lorem ipsum dolor BLAH sit amet, consectetur adipiscing elit. Pellentesque
             id luctus libero. Donec risus nunc, placerat id ante nec, aliquet tempus
             arcu. Proin blandit sodales lorem maximus laoreet. Donec egestas neque
             in turpis suscipit, ac volutpat mi auctor. Suspendisse fringilla justo
