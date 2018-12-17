@@ -26,9 +26,13 @@ h3 {
   margin-left: 1em;
 }
 
+label {
+  margin-right: 1em;
+}
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -44,7 +48,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  /* width: 100%; */
 }
 
 button:hover {
@@ -281,6 +285,15 @@ footer {
   position: relative;
 }
 
+.new-cards {
+  margin-left: 20px;
+}
+
+#training-container {
+  margin-left: 20px;
+  position: relative;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -289,10 +302,15 @@ footer {
   display: table;
   margin-bottom: 20px;
   float: left;
+  margin-left: 20px;
 }
 
 #addlicform {
   background-color: #f7f4e3;
+}
+
+#addtrainform {
+  background-color: #d2e1c8;
 }
 
 .license-card {
@@ -309,13 +327,18 @@ footer {
 
 .add-card {
   width: 20%;
-  margin-left: 20px;
+  /* margin-left: 20px; */
+}
+
+#cert-image {
+  height: 150;
+  padding: 1em 1em;
 }
 
 #form-container {
   margin: 1em 1em;
   text-align: left;
-  height: 275px;
+  /* height: 275px; */
 }
 
 form {
@@ -323,10 +346,22 @@ form {
   padding: 5px;
 }
 
-button, input, select, textarea {
+/* button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 1em 1em;
+} */
+select {
+  margin: 10px;
+  width: 200px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none; */
+  /* background: url(images/arrow_down.png) 96% / 15% no-repeat #eee; */
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */

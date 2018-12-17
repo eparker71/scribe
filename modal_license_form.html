@@ -1,0 +1,72 @@
+<div id="addlic" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('addlic').style.display='none'" class="w3-button w3-display-topright"><i class="fa fa-times fa-2x" aria-hidden="true"></i></span>
+      <div id="form-container">
+        <h3>Enter License Information</h3>
+        <form id="addlicform" name="addlicform" onsubmit="event.preventDefault();">
+          <table>
+            <tr>
+              <td>
+                <label for="selFieldClassType">Select License Category</label>
+                <select name="selFieldClassType">
+                  <option value="" selected="">--Select Category--</option>
+                  <option value="A" selected>Academic: Administrator</option>
+                  <option value="S">Academic: Professional Support Personnel</option>
+                  <option value="TS">Academic: Specialist Teacher</option>
+                  <option value="T">Academic: Teacher</option>
+                </select>
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="selFieldType">Select Field</label>
+                <select name="selFieldType">
+                  <option value="">--Select Field--</option>
+                  <option value="33" selected>Academically Advanced</option>
+                  <option value="E1">Instructional Technology Specialist</option>
+                  <option value="46">Reading</option>
+                  <option value="91">Speech Language and Hearing Disorders</option>
+                </select>
+              </td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="selLevelType">Select Grade</label>
+                <select name="selLevelType">
+                  <option value="">--Select Grade--</option>
+                  <option value="K" selected>Level depends on teaching license</option>
+                  <option value="I">PreK-8</option>
+                </select>
+              </td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="selStageType">Select Type</label>
+                <select name="selStageType">
+                  <option value="">--Select Type--</option>
+                  <option value="2">Initial</option>
+                  <option value="3" selected>Professional</option>
+                  <option value="7">Temporary</option>
+                </select>
+              </td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td><button id="add-license-submit">Submit</button></td>
+              <td><button onclick="document.getElementById('addlic').style.display='none'">Cancel</button></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

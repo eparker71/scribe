@@ -33,7 +33,7 @@
           <h3>Manage your licenses</h3>
           <div id="license-container">
 
-            <div class="card license-card">
+            <div id="first-license-card" class="card license-card">
               <p class="lic-name">
                 <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
                 Early Childhood Special Ed.</p>
@@ -54,20 +54,34 @@
               </div>
             </div>
             <!--  end add card -->
-
           </div>
+          
         </article>
       </section>
     </main>
     <footer>
       <?php include 'footer.html';?>
-      <?php include 'modal_form.html';?>
     </footer>
+    <?php include 'login.html';?>
+    <?php include 'modal_license_form.html';?>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="events.js"></script>
     <script type="text/javascript" src="nav.js"></script>
-    <?php include 'login.html';?>
+    <script type="text/javascript" src="add.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+		<script id="license-card-template" type="text/x-handlebars-template">
+			{{#each cards}}
+      <div class="card license-card new-cards">
+        <p class="lic-name">
+          <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+          {{name}}</p>
+        <div class="container">
+          <p>Valid until {{date}}</p>
+        </div>
+      </div>
+			{{/each}}
+		</script>
   </body>
 
 </html>
