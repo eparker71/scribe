@@ -35,7 +35,7 @@
 
             <div id="first-license-card" class="card license-card">
               <p class="lic-name">
-                <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
                 Early Childhood Special Ed.</p>
               <div class="container">
                 <p>Valid until Sept. 28th, 2020 </p>
@@ -45,7 +45,7 @@
             <!--  start add card -->
             <div class="card license-card add-card">
               <p class="lic-name">
-                <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
                 Add New License</p>
               <br />
               <div class="container">
@@ -55,7 +55,7 @@
             </div>
             <!--  end add card -->
           </div>
-          
+
         </article>
       </section>
     </main>
@@ -74,7 +74,7 @@
 			{{#each cards}}
       <div class="card license-card new-cards">
         <p class="lic-name">
-          <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
           {{name}}</p>
         <div class="container">
           <p>Valid until {{date}}</p>

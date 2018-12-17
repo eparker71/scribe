@@ -36,10 +36,14 @@
             <div id="first-training-card" class="card training-card">
               <p class="lic-name">
                 <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-                Teaching Children with diffe...</p>
+                Teaching Children with different learning styles
+              </p>
+
               <div class="container">
-                <p>Valid until Sept. 28th, 2020 </p>
+                <span>Omnilearn inc.</span><br />
+                <span>Valid until Sept. 28th, 2020</span>
               </div>
+
             </div>
 
             <!--  start add card -->
