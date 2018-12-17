@@ -36,7 +36,7 @@
             <div id="first-training-card" class="card training-card">
               <p class="lic-name">
                 <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-                Teaching different learning styles
+                Different learning styles
               </p>
               <div class="container">
                 <span>Omnilearn inc.</span><br />
@@ -49,9 +49,9 @@
             <div class="card training-card add-card">
               <p class="lic-name">
                 <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-                Add New Training</p>
-              <br />
-              <div class="container">
+                Add New Training
+              </p>
+              <div class="container add-training-container">
                 <span onclick="document.getElementById('addtraining').style.display='block'"><i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i></span>
               </div>
             </div>
