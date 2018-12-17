@@ -6,6 +6,7 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 100px;
+  background-color: #FFFFFF;
 }
 
 footer {
@@ -14,13 +15,24 @@ footer {
   bottom: 0;
   height: 100px;
   width: 100%;
-  background-color: #949494;
-  color: #ffffff;
+  background-color: #FFFFFF;
+}
+
+.fa-plus-square-o {
+  color: #4CAF50;
+}
+
+h3 {
+  margin-left: 1em;
+}
+
+label {
+  margin-right: 1em;
 }
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -36,7 +48,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  /* width: 100%; */
 }
 
 button:hover {
@@ -100,7 +112,7 @@ span.psw {
   margin: 5% auto 15% auto;
   /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 80%;
+  width: 40%;
   /* Could be more or less, depending on screen size */
 }
 
@@ -160,7 +172,7 @@ span.psw {
 
 /* Add a black background color to the top navigation */
 nav {
-  background-color: #333;
+  background-color: #582d2d;
   overflow: hidden;
 }
 
@@ -265,10 +277,20 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 40%;
 }
 
 #license-container {
+  margin-left: 20px;
+  position: relative;
+}
+
+.new-cards {
+  margin-left: 20px;
+}
+
+#training-container {
+  margin-left: 20px;
   position: relative;
 }
 
@@ -277,31 +299,69 @@ footer {
   transition: 0.3s;
   width: 30%;
   border-radius: 5px;
-  color: white;
-  background-color: #CFA267;
   display: table;
-  margin: 2px 2px;
+  margin-bottom: 20px;
   float: left;
+  margin-left: 20px;
+}
+
+#addlicform {
+  background-color: #f7f4e3;
+}
+
+#addtrainform {
+  background-color: #d2e1c8;
+}
+
+.license-card {
+  background-color: #f7f4e3;
+}
+
+.training-card {
+  background-color: #d2e1c8;
 }
 
 .card:hover {
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
 }
 
-.addCard {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 30%;
-  border-radius: 5px;
-  color: white;
-  background-color: #CFA267;
-  display: table;
-  margin: 2px 2px;
-  float: left;
+.add-card {
+  width: 20%;
+  /* margin-left: 20px; */
 }
 
-.addCard:hover {
-  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+#cert-image {
+  height: 150;
+  padding: 1em 1em;
+}
+
+#form-container {
+  margin: 1em 1em;
+  text-align: left;
+  /* height: 275px; */
+}
+
+form {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+/* button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 1em 1em;
+} */
+select {
+  margin: 10px;
+  width: 200px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none; */
+  /* background: url(images/arrow_down.png) 96% / 15% no-repeat #eee; */
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */

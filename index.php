@@ -24,7 +24,7 @@
 
   <body>
     <header>
-      <?php include 'navigation.php';?>
+      <?php include 'navigation.html';?>
     </header>
     <main>
       <section>
@@ -32,18 +32,22 @@
           <br />
           <br />
           <h2 id="chart-title">Overall Progress</h2>
-          <?php if(isset($_COOKIE['user'])){ ?>
+          <?php if (isset($_COOKIE['user'])) {
+    ?>
             <img id="piechart" src="images/piechart.png" />
-          <?php } else { ?>
+          <?php
+} else {
+        ?>
               <h3>Please login to view progress</h3>
-          <?php } ?>
+          <?php
+    } ?>
         </article>
       </section>
     </main>
 
     <footer>
-      <?php include 'login.php';?>
-      <?php include 'footer.php';?>
+      <?php include 'login.html';?>
+      <?php include 'footer.html';?>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>

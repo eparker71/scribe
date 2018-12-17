@@ -23,13 +23,13 @@
 
   <body>
     <header>
-      <?php include 'navigation.php';?>
+      <?php include 'navigation.html';?>
     </header>
     <main>
       <section>
         <h3>Need help with Scribe?</h3>
         <article>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          <p>Lorem ipsum dolor BLAH sit amet, consectetur adipiscing elit. Pellentesque
             id luctus libero. Donec risus nunc, placerat id ante nec, aliquet tempus
             arcu. Proin blandit sodales lorem maximus laoreet. Donec egestas neque
             in turpis suscipit, ac volutpat mi auctor. Suspendisse fringilla justo
@@ -51,8 +51,8 @@
       </section>
     </main>
     <footer>
-      <?php include 'login.php';?>
-      <?php include 'footer.php';?>
+      <?php include 'login.html';?>
+      <?php include 'footer.html';?>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>

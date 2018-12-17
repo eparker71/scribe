@@ -1,0 +1,47 @@
+<div id="addtraining" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('addtraining').style.display='none'" class="w3-button w3-display-topright"><i class="fa fa-times fa-2x" aria-hidden="true"></i></span>
+      <div id="form-container">
+        <h3><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i>Enter Training Information</h3>
+        <form id="addtrainform" name="addtrainform" onsubmit="event.preventDefault();" method="POST">
+          <table>
+            <tr>
+              <td>
+                <label for="training_name">Training Name</label><input type="text" name="training_name" value="Art for teaching">
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="training_name">Organization Name</label><input type="text" name="org_name" value="EdArt Learning">
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="start_date">Start Date</label>
+                <input name="start_date" type="date" name="start_date" value="10/17/18">
+              </td>
+              <td>
+                <label for="End_date">End Date</label>
+                <input name="end_date" type="date" name="end_date">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img id="cert-image" src="images/imageplaceholder.png"></img>
+              </td>
+              <td>
+                <button>Upload Certificate</button>
+              </td>
+            </tr>
+            <tr>
+              <td><button id="add-training-submit">Submit</button></td>
+              <td><button onclick="document.getElementById('addtraining').style.display='none'">Cancel</button></td>
+            </tr>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
