@@ -31,14 +31,20 @@
         <article>
           <br />
           <br />
-          <h2 id="chart-title">Overall Progress</h2>
+
           <?php if (isset($_COOKIE['user'])) {
     ?>
+            <h2 id="chart-title" class="center">Overall Progress</h2>
             <a href="detail.php"><img class="piechart" src="images/piechart.png"></a>
           <?php
 } else {
         ?>
-              <h3>Please login to view progress</h3>
+            <div id="user-not-logged-in" class="center">
+              <h2>Welcome to Scribe</h2>
+              <h3>Please <span id="login-link" onclick="document.getElementById('id01').style.display='block'">login</span> to view progress</h3>
+              <img id="image_monk" src="images/scribe_monk.gif">
+              <!-- image source https://medievaleurope.mrdonn.org/wh_scribe.gif -->
+            </div>
           <?php
     } ?>
         </article>

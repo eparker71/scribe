@@ -256,8 +256,18 @@ footer {
   bottom: 0;
 }
 
-#chart-title {
+.center {
   text-align: center;
+}
+
+#image_monk {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+}
+
+#login-link {
+  color: blue;
 }
 
 #user {
