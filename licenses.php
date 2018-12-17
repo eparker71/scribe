@@ -49,7 +49,7 @@
                 Add New License</p>
               <br />
               <div class="container">
-                <span onclick="console.log('hello');document.getElementById('addlic').style.display='block'"><i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i>
+                <span onclick="document.getElementById('addlic').style.display='block'"><i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i>
                 </span>
               </div>
             </div>
@@ -72,7 +72,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
 		<script id="license-card-template" type="text/x-handlebars-template">
 			{{#each cards}}
-      <div class="card license-card new-cards">
+      <div id="new-license-card" class="card license-card new-cards">
         <p class="lic-name">
           <i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i>
           {{name}}</p>

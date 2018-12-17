@@ -36,9 +36,8 @@
             <div id="first-training-card" class="card training-card">
               <p class="lic-name">
                 <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-                Teaching Children with different learning styles
+                Teaching different learning styles
               </p>
-
               <div class="container">
                 <span>Omnilearn inc.</span><br />
                 <span>Valid until Sept. 28th, 2020</span>
@@ -77,9 +76,10 @@
       <div id="new-training-card" class="card training-card new-cards">
         <p class="lic-name">
           <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-          {{name}}</p>
+          {{name}}<br /></p>
         <div class="container">
-          <p>Valid until {{date}} </p>
+          <span>EdArt Learning</span><br />
+          <span>Valid until {{date}} </span>
         </div>
       </div>
 			{{/each}}

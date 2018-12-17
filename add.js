@@ -4,6 +4,10 @@ $(document).ready(function () {
     document.getElementById('addtraining').style.display = 'block';
   });
 
+  $('.license-card').click(function () {
+    document.getElementById('addlic').style.display = 'block';
+  });
+
   $('#add-training-submit').click(function () {
     var source = document.getElementById("training-card-template").innerHTML;
     var template = Handlebars.compile(source);
@@ -37,6 +41,10 @@ $(document).ready(function () {
     var html = template(context);
     $("#first-license-card").after(html);
     document.getElementById('addlic').style.display = 'none'
+
+    $('#new-license-card').click(function () {
+      document.getElementById('addlic').style.display = 'block';
+    });
   });
 
 });
